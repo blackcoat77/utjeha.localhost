@@ -64,11 +64,7 @@
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
-      
-      <?php if(drupal_is_front_page()) {unset($page['content']['system_main']['default_message']);} ?>
-      <?php if (!empty($title) && !$is_front): ?>
-      
-      
+      <?php if (!empty($title)): ?>
         <h1 class="page-header"><?php print $title; ?></h1>
       <?php endif; ?>
       <?php print render($title_suffix); ?>
@@ -95,5 +91,4 @@
 </div>
 <footer class="footer container">
   <?php print render($page['footer']); ?>
-  <?php print "Powered by " ?><a href="#">Spinit.fr</a>
 </footer>
