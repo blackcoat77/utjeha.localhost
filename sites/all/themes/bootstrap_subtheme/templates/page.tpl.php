@@ -96,5 +96,8 @@
 </div>
 <footer class="footer container">
   <?php print render($page['footer']); ?>
-     <?php print "Powered by " ?><a href="#">spinit.fr</a>
+    
+     <?php 
+     $external_url = 'http://www.spinit.fr';
+     print "Powered by " .  l('spinit.fr', $external_url, array('attributes'=>array('target'=>'_blank'))); ?>
 </footer>
