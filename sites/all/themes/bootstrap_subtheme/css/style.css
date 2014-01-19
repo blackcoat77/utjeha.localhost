@@ -95,3 +95,83 @@
 .title-space  {
    width: 17%;
 }
+
+.navbar-inner{min-height: 41px;padding-left:20px;padding-right:20px;  background-color: #0C9FF1; 
+             background-image:-moz-linear-gradient(top, #ffffff, #f2f2f2);
+             background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f2f2f2));background-image:-webkit-linear-gradient(top, #ffffff, #f2f2f2);
+             background-image:-o-linear-gradient(top, #ffffff, #f2f2f2);
+             background-image: linear-gradient(to bottom, #9AC3F7, #98DAF8);
+             background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);border:1px solid #d4d4d4;
+             -webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.065);-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.065);
+             box-shadow:0 1px 4px rgba(0, 0, 0, 0.065);*zoom:1;}.navbar-inner:before,.navbar-inner:after{display:table;content:"";line-height:0;}
+             
+             .navbar .nav>li>a{float:none;padding:10px 15px 10px;color:#000000;text-decoration:none;text-shadow:0 0 0 #ffffff;}
+             
+
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+color: #000000;
+text-decoration: none;
+background-color: #E2F506;
+-webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+-moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+margin: 15px 0;
+font-family: inherit;
+font-weight: bold;
+line-height: 20px;
+color: inherit;
+text-rendering: optimizelegibility;
+}
+
+#block-views-geomap-block{
+padding: 20px;
+margin-bottom: 30px;
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+color: inherit;
+background-color: #F4F7FA;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+}
+
+div.highlighted.hero-unit  {
+ padding: 30px;
+margin-bottom: 30px;
+font-size: 18px;
+font-weight: 200;
+line-height: 30px;
+color: inherit;
+background-color: #F4F7FA;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px; 
+   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+     box-shadow: 0px 5px 33px 4px #CDF;
+}
+
+/*
+.table th, .table td {
+padding: 8px;
+line-height: 20px;
+text-align: left;
+vertical-align: top;
+
+}*/
+
+
+table.views-view-grid.cols-3.table{
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+     box-shadow: 0px 5px 33px 4px #CDF;
+}
+
+.breadcrumb {display: none;}
+
+#block-views-house-gallery-block-block.block.block-views.clearfix  { 
+   margin-right: 32px
+}

@@ -25,12 +25,12 @@
                 </tr>
                 
                 <tr>
-                      <th><?php print render($content['field_living_area']['#title']);?></th>
+                      <th><?php print render($content['field_living_area']['#title']);?> ( m² ) </th>
                       <td><?php print $living_area; ?></td>
                 </tr>
                 
                <tr>
-                  <th><?php print render($content['field_land_area']['#title']);?></th>
+                  <th><?php print render($content['field_land_area']['#title']);?> ( m² ) </th>
                   <td><?php print $land_area; ?></td>
                 </tr>
                 
@@ -52,7 +52,7 @@
                 </tr>
                 
                  <tr>
-                      <th><?php print render($content['field_from_shore']['#title']);?></th>
+                      <th><?php print render($content['field_from_shore']['#title']);?> ( m ) </th>
                       <td><?php print $from_shore; ?></td>
                 </tr>
                 
